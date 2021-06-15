@@ -18,7 +18,7 @@
          @enderror</span><br><br>
 
         Password
-        <input type="password" name="password"><span style="color: red >@error('password')* {{$message}}
+        <input type="password" name="password"><span style="color: red" >@error('password')* {{$message}}
         @enderror</span><br><br>
         <button type="submit">Submit</button>
     
