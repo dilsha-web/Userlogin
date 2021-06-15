@@ -14,11 +14,11 @@
     <form action="profile" method="post">
         @csrf
         Username
-        <input type="text" name="user"><span>@error('user')* {{$message}}
+        <input type="text" name="user"><span style="color: red">@error('user')* {{$message}}
          @enderror</span><br><br>
 
         Password
-        <input type="password" name="password"><span>@error('password')* {{$message}}
+        <input type="password" name="password"><span style="color: red >@error('password')* {{$message}}
         @enderror</span><br><br>
         <button type="submit">Submit</button>
     
